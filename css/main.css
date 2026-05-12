@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+ 
+}
+span{
+    color:#D4AF37;
+}
+
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 16px;
+    background-color: #D4AF37;
+    color: black;
+    height: 500px;
+}
+.about{
+    width: 50%;
+    font-size: 20px;
+    line-height: 1.5;
+}
+img{
+    width: 80%;
+    height: 80%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+.contact{
+    width: 75%;
+    padding: 16px 0;
+    background: #000;
+    font-size: 18px;
+    color:whitesmoke;
+    transition: all 1s;
+    border: none;
+}
+.contact >i{
+    color: #D4AF37;
+    font-size: 24px;
+}
+.contact:hover{
+    background-color: white;
+    color: #000;
+    border: none;
+}
